@@ -6,3 +6,11 @@ h1 {
   color: silver;
   font-family: "Poppins", sans-serif;
 }
+
+.hero {
+  background: #f6fdff;
+  text-align: center;
+}
+.nav-bar-container {
+  background: #f6fdff;
+}
