@@ -1,6 +1,7 @@
 /** @format */
 /* font-family: 'Poppins', sans-serif; 
-font-family: 'Open Sans', sans-serif;*/
+font-family: 'Open Sans', sans-serif;
+font-family: 'Playfair Display', serif;*/
 :root {
   --primary-color: #63c7ff;
   --secondary-color: #f6fdff;
@@ -9,7 +10,7 @@ font-family: 'Open Sans', sans-serif;*/
 }
 h1 {
   color: silver;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Playfair Display", serif;
   font-size: 96px;
   font-weight: 700;
   line-height: 127.97px;
