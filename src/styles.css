@@ -4,7 +4,7 @@ font-family: 'Open Sans', sans-serif;*/
 :root {
   --primary-color: #63c7ff;
   --secondary-color: #f6fdff;
-  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.185);
 }
 h1 {
   color: silver;
@@ -26,7 +26,7 @@ footer {
   text-align: center;
 }
 .contact-footer-button {
-  padding: 30px 0;
+  padding: 35px 0;
 }
 .contact-link {
   border-radius: 10px;
@@ -45,13 +45,16 @@ footer {
   background: var(--secondary-color);
   border-color: var(--secondary-color);
 }
+.header-overview-projects {
+  padding-bottom: 15px;
+}
 .hero {
   background: #f6fdff;
   text-align: center;
 }
 .hero-button-links {
   padding-top: 80px;
-  padding-bottom: 120px;
+  padding-bottom: 150px;
 }
 .hero-p {
   font-family: "Poppins", sans-serif;
@@ -68,6 +71,12 @@ footer {
   border-radius: 15px;
   max-width: 70%;
 }
+.inquiry-text {
+  padding-top: 15px;
+}
+.bottom-footer {
+  padding: 50px 0;
+}
 .navbar-brand {
   padding-left: 30px;
 }
@@ -79,6 +88,12 @@ footer {
 }
 .overlook-of-projects {
   padding: 80px 0;
+}
+.plus-certificate-image {
+  filter: drop-shadow();
+}
+.plus-certificate-image:hover {
+  zoom: 90%;
 }
 .primary-link {
   border-radius: 10px;
@@ -106,7 +121,7 @@ footer {
   border-radius: 30px;
 }
 .project-overview-images {
-  border: 50px solid rgb(250, 249, 249);
+  border: 50px solid var(--secondary-color);
   border-radius: 30px;
 }
 .text-align {
