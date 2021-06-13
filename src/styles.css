@@ -178,6 +178,9 @@ footer {
   .project-overview-description {
     border: 5px solid transparent;
   }
+  .project-overview-images {
+    border: none;
+  }
   .sub-heading,
   .phone-display {
     display: block;
