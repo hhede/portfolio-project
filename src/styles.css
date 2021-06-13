@@ -4,6 +4,7 @@ font-family: 'Open Sans', sans-serif;*/
 :root {
   --primary-color: #63c7ff;
   --secondary-color: #f6fdff;
+  --text-color: rgb(117, 117, 117);
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.185);
 }
 h1 {
@@ -18,11 +19,11 @@ h2 {
   font-family: "Poppins", sans-serif;
   font-size: 36px;
   font-weight: 500;
-  color: rgb(117, 117, 117);
+  color: var(--text-color);
   padding-bottom: 40px;
 }
 h3 {
-  color: rgb(117, 117, 117);
+  color: var(--text-color);
   font-weight: 700;
 }
 
@@ -30,7 +31,10 @@ h4 {
   text-align: center;
   padding-top: 80px;
   font-size: 36px;
-  color: rgb(117, 117, 117);
+  color: var(--text-color);
+}
+brand {
+  color: var(--text-color);
 }
 footer {
   text-align: center;
@@ -51,7 +55,7 @@ footer {
 }
 .footer-mail-link {
   text-decoration: none;
-  color: rgb(117, 117, 117);
+  color: var(--text-color);
 }
 .header-overview-projects {
   padding-bottom: 15px;
@@ -70,7 +74,7 @@ footer {
   line-height: 54px;
   font-weight: 700;
   padding-top: 120px;
-  color: rgb(117, 117, 117);
+  color: var(--text-color);
 }
 .hero-primary-link {
   margin-right: 20px;
@@ -84,7 +88,7 @@ footer {
   background: var(--secondary-color);
   padding: 10px 0;
   border-radius: 15px;
-  max-width: 70%;
+  max-width: 90%;
 }
 .inquiry-text {
   padding-top: 15px;
@@ -115,7 +119,7 @@ footer {
   transition: all 2ms ease-in-out;
 }
 .primary-link:hover {
-  color: rgb(117, 117, 117);
+  color: var(--text-color);
 }
 .project-overwiew-container {
   display: block;
@@ -142,7 +146,7 @@ footer {
   transition: all 2ms ease-in-out;
 }
 .secondary-link:hover {
-  color: rgb(117, 117, 117);
+  color: var(--text-color);
 }
 .text-align {
   text-align: center;
@@ -155,6 +159,9 @@ footer {
   .project-overview-images {
     border: 50px solid var(--secondary-color);
     border-radius: 30px;
+  }
+  .inquiry-footer {
+    max-width: 70%;
   }
 }
 @media (max-width: 576px) {
