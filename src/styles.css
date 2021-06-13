@@ -102,9 +102,8 @@ footer {
   max-width: 60%;
 }
 .project-overview-description {
-  border: 80px solid rgb(250, 249, 249);
+  border: 80px solid transparent;
   border-radius: 30px;
-  background: rgb(250, 249, 249);
 }
 .project-overview-images {
   border: 50px solid rgb(250, 249, 249);
