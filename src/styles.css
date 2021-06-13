@@ -117,7 +117,7 @@ footer {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
-  transition: all 2ms ease-in-out;
+  transition: all 200ms ease-in-out;
 }
 .primary-link:hover {
   color: var(--text-color);
@@ -144,7 +144,7 @@ footer {
   text-transform: capitalize;
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
-  transition: all 2ms ease-in-out;
+  transition: all 200ms ease-in-out;
 }
 .secondary-link:hover {
   color: var(--text-color);
