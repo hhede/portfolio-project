@@ -18,8 +18,28 @@ h2 {
   font-size: 36px;
   font-weight: 500;
 }
+h4 {
+  text-align: center;
+  padding-top: 50px;
+}
 footer {
   text-align: center;
+}
+.contact-footer-button {
+  padding: 30px 0;
+}
+.contact-link {
+  border-radius: 10px;
+  padding: 15px 30px;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  margin-left: 20px;
+  transition: all 2ms ease-in-out;
+}
+.contact-link:hover {
+  color: rgb(117, 117, 117);
 }
 .dropdown-menu {
   background: var(--secondary-color);
@@ -29,16 +49,24 @@ footer {
   background: #f6fdff;
   text-align: center;
 }
-
+.hero-button-links {
+  padding-top: 80px;
+  padding-bottom: 120px;
+}
 .hero-p {
   font-family: "Poppins", sans-serif;
   font-size: 36px;
   line-height: 54px;
   font-weight: 700;
-  padding-top: 50px;
+  padding-top: 120px;
 }
-.inquiry {
+.inquiry-footer {
+  display: block;
+  margin: 0 auto;
   background: var(--secondary-color);
+  padding: 10px 0;
+  border-radius: 15px;
+  max-width: 70%;
 }
 .navbar-brand {
   padding-left: 30px;
@@ -49,7 +77,9 @@ footer {
 .nav-bar-container {
   background: #f6fdff;
 }
-
+.overlook-of-projects {
+  padding: 80px 0;
+}
 .primary-link {
   border-radius: 10px;
   padding: 15px 30px;
@@ -58,13 +88,29 @@ footer {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
+  margin-right: 20px;
+  transition: all 2ms ease-in-out;
 }
 .primary-link:hover {
+  color: rgb(117, 117, 117);
+}
+.project-overwiew-container {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 0;
   border-radius: 10px;
-  padding: 20px 15px;
-  background: var(--primary-color);
-  box-shadow: var(--box-shadow);
-  color: white;
-  text-transform: capitalize;
-  text-decoration: none;
+  max-width: 60%;
+}
+.project-overview-description {
+  border: 80px solid rgb(250, 249, 249);
+  border-radius: 30px;
+  background: rgb(250, 249, 249);
+}
+.project-overview-images {
+  border: 50px solid rgb(250, 249, 249);
+  border-radius: 30px;
+}
+.text-align {
+  text-align: center;
+  font-weight: 700;
 }
