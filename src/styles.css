@@ -12,34 +12,38 @@ h1 {
   font-size: 96px;
   font-weight: 700;
   line-height: 127.97px;
+  padding: 20px 0;
 }
 h2 {
   font-family: "Poppins", sans-serif;
   font-size: 36px;
   font-weight: 500;
+  color: rgb(117, 117, 117);
+  padding-bottom: 40px;
 }
+h3 {
+  color: rgb(117, 117, 117);
+  font-weight: 700;
+}
+
 h4 {
   text-align: center;
-  padding-top: 50px;
+  padding-top: 80px;
+  font-size: 36px;
+  color: rgb(117, 117, 117);
 }
 footer {
   text-align: center;
+  padding-top: 10px;
+}
+.bottom-footer {
+  padding: 50px 0;
+}
+.certificates {
+  padding-top: 30px;
 }
 .contact-footer-button {
   padding: 35px 0;
-}
-.contact-link {
-  border-radius: 10px;
-  padding: 15px 30px;
-  text-decoration: none;
-  text-transform: capitalize;
-  color: var(--primary-color);
-  border: 1px solid var(--primary-color);
-  margin-left: 20px;
-  transition: all 2ms ease-in-out;
-}
-.contact-link:hover {
-  color: rgb(117, 117, 117);
 }
 .dropdown-menu {
   background: var(--secondary-color);
@@ -54,7 +58,7 @@ footer {
 }
 .hero-button-links {
   padding-top: 80px;
-  padding-bottom: 150px;
+  padding-bottom: 170px;
 }
 .hero-p {
   font-family: "Poppins", sans-serif;
@@ -62,6 +66,7 @@ footer {
   line-height: 54px;
   font-weight: 700;
   padding-top: 120px;
+  color: rgb(117, 117, 117);
 }
 .inquiry-footer {
   display: block;
@@ -74,8 +79,8 @@ footer {
 .inquiry-text {
   padding-top: 15px;
 }
-.bottom-footer {
-  padding: 50px 0;
+.launch-project {
+  padding-top: 50px;
 }
 .navbar-brand {
   padding-left: 30px;
@@ -124,7 +129,19 @@ footer {
   border: 50px solid var(--secondary-color);
   border-radius: 30px;
 }
+.secondary-link {
+  border-radius: 10px;
+  padding: 15px 30px;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  margin-left: 20px;
+  transition: all 2ms ease-in-out;
+}
+.secondary-link:hover {
+  color: rgb(117, 117, 117);
+}
 .text-align {
   text-align: center;
-  font-weight: 700;
 }
