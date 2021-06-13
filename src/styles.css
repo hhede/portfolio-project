@@ -125,11 +125,11 @@ footer {
   max-width: 60%;
 }
 .project-overview-description {
-  border: 80px solid transparent;
+  border: 1px solid transparent;
   border-radius: 30px;
 }
 .project-overview-images {
-  border: 50px solid var(--secondary-color);
+  border: 10px solid var(--secondary-color);
   border-radius: 30px;
 }
 .secondary-link {
@@ -146,6 +146,16 @@ footer {
 }
 .text-align {
   text-align: center;
+}
+@media (min-width: 900px) {
+  .project-overview-description {
+    border: 80px solid transparent;
+    border-radius: 30px;
+  }
+  .project-overview-images {
+    border: 50px solid var(--secondary-color);
+    border-radius: 30px;
+  }
 }
 @media (max-width: 576px) {
   h1 {
