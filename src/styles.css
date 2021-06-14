@@ -34,6 +34,10 @@ h4 {
   font-size: 36px;
   color: var(--text-color);
 }
+p {
+  margin-top: 20px;
+  color: var(--text-color);
+}
 brand {
   color: var(--text-color);
 }
@@ -48,7 +52,7 @@ footer {
   padding-top: 30px;
 }
 .contact-footer-button {
-  padding: 35px 0;
+  padding-top: 42px;
 }
 .dropdown-menu {
   background: var(--secondary-color);
