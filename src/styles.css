@@ -50,6 +50,9 @@ footer {
   text-align: center;
   padding-top: 10px;
 }
+.about-h1 {
+  font-size: 76px;
+}
 .bottom-footer {
   padding: 50px 0;
 }
@@ -74,7 +77,7 @@ footer {
   padding-bottom: 15px;
 }
 .heading-about {
-  text-align: left;
+  text-align: center;
   margin: 10px 50px;
 }
 .heading-about-p {
@@ -150,7 +153,7 @@ footer {
   display: block;
   margin: 0 auto;
   padding: 40px 10px 50px 10px;
-  max-width: 90%;
+  max-width: 60%;
   border-radius: 10px;
 }
 .project-overwiew-container {
@@ -195,6 +198,21 @@ footer {
   text-align: center;
 }
 @media (min-width: 1300px) {
+  .about-h1 {
+    color: silver;
+    font-family: "Playfair Display", serif;
+    font-size: 96px;
+    font-weight: 700;
+    line-height: 127.97px;
+    padding: 20px 0;
+  }
+  .profile-picture {
+    display: block;
+    margin: 0 auto;
+    padding: 40px 10px 50px 10px;
+    max-width: 90%;
+    border-radius: 10px;
+  }
   .project-overview-description {
     border: 80px solid transparent;
     border-radius: 30px;
@@ -207,7 +225,7 @@ footer {
     max-width: 70%;
   }
 }
-@media (max-width: 600px) {
+@media (max-width: 680px) {
   h1 {
     font-size: 50px;
     padding-top: 120px;
@@ -222,6 +240,10 @@ footer {
   }
   .email-link {
     font-size: 20px;
+  }
+  .heading-about {
+    text-align: center;
+    margin: 10px 0;
   }
   .inquiry-footer {
     display: block;
@@ -240,6 +262,13 @@ footer {
   }
   .project-overview-images {
     border: none;
+  }
+  .skill-icon {
+    display: block;
+    margin: 0 auto;
+    padding: 0 5px 50px 5px;
+    max-width: 15%;
+    border-radius: 12px;
   }
   .sub-heading,
   .phone-display {
