@@ -153,7 +153,7 @@ footer {
   display: block;
   margin: 0 auto;
   padding: 40px 10px 50px 10px;
-  max-width: 60%;
+  max-width: 90%;
   border-radius: 10px;
 }
 .project-overwiew-container {
@@ -205,13 +205,6 @@ footer {
     font-weight: 700;
     line-height: 127.97px;
     padding: 20px 0;
-  }
-  .profile-picture {
-    display: block;
-    margin: 0 auto;
-    padding: 40px 10px 50px 10px;
-    max-width: 90%;
-    border-radius: 10px;
   }
   .project-overview-description {
     border: 80px solid transparent;
