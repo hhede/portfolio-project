@@ -34,6 +34,11 @@ h4 {
   font-size: 36px;
   color: var(--text-color);
 }
+h5 {
+  color: silver;
+  font-weight: 700;
+  font-size: 36px;
+}
 p {
   margin-top: 20px;
   color: var(--text-color);
@@ -51,6 +56,9 @@ footer {
 .certificates {
   padding-top: 30px;
 }
+.certificate-images {
+  border-radius: 30px;
+}
 .contact-footer-button {
   padding-top: 42px;
 }
@@ -64,6 +72,18 @@ footer {
 }
 .header-overview-projects {
   padding-bottom: 15px;
+}
+.heading-about {
+  text-align: left;
+  margin: 40px 50px;
+}
+.heading-about-p {
+  font-family: "Poppins", sans-serif;
+  font-size: 36px;
+  line-height: 54px;
+  font-weight: 700;
+  padding-top: 80px;
+  color: var(--text-color);
 }
 .hero {
   background: #f6fdff;
@@ -126,6 +146,13 @@ footer {
 .primary-link:hover {
   color: var(--text-color);
 }
+.profile-picture {
+  display: block;
+  margin: 0 auto;
+  padding: 40px 10px 50px 10px;
+  max-width: 90%;
+  border-radius: 10px;
+}
 .project-overwiew-container {
   display: block;
   margin: 0 auto;
@@ -152,6 +179,17 @@ footer {
 }
 .secondary-link:hover {
   color: var(--text-color);
+}
+
+.skill-icon {
+  display: block;
+  margin: 0 auto;
+  padding: 0 10px 100px 10px;
+  max-width: 10%;
+  border-radius: 10px;
+}
+.skills-icons-display {
+  padding-bottom: 40px;
 }
 .text-align {
   text-align: center;
