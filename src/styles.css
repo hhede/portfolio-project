@@ -137,6 +137,10 @@ footer {
 .nav-bar-container {
   background: #f6fdff;
 }
+.new-skills {
+  color: var(--primary-color);
+  font-weight: 700;
+}
 .overlook-of-projects {
   padding: 80px 0;
 }
@@ -198,6 +202,10 @@ footer {
 }
 .skills-icons-display {
   padding-bottom: 40px;
+}
+.skills-learning-display {
+  display: flex;
+  justify-content: space-between;
 }
 .text-align {
   text-align: center;
