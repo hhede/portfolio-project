@@ -39,6 +39,10 @@ h5 {
   font-weight: 700;
   font-size: 36px;
 }
+h6 {
+  color: var(--text-color);
+  font-size: 20px;
+}
 p {
   margin-top: 20px;
   color: var(--text-color);
@@ -69,6 +73,10 @@ footer {
 .footer-mail-link {
   text-decoration: none;
   color: var(--text-color);
+}
+.footer-mail-link:hover {
+  text-decoration: none;
+  color: var(--primary-color);
 }
 .header-overview-projects {
   padding-bottom: 15px;
@@ -152,6 +160,7 @@ footer {
   max-width: 90%;
   border-radius: 10px;
 }
+
 .project-overwiew-container {
   display: block;
   margin: 0 auto;
