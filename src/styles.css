@@ -210,6 +210,12 @@ footer {
 .text-align {
   text-align: center;
 }
+.zoom {
+  transition: all 200ms ease-in-out;
+}
+.zoom:hover {
+  transform: scale(1.8);
+}
 @media (min-width: 1300px) {
   .about-h1 {
     color: silver;
