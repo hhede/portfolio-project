@@ -137,6 +137,9 @@ footer {
 .nav-bar-container {
   background: #f6fdff;
 }
+.navbar-light .navbar-nav .nav-link.active {
+  color: var(--primary-color);
+}
 .new-skills {
   color: var(--primary-color);
   font-weight: 700;
