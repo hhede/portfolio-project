@@ -47,6 +47,14 @@ p {
   margin-top: 20px;
   color: var(--text-color);
 }
+p a {
+  color: var(--text-color);
+  text-decoration: none;
+  font-weight: 700;
+}
+p a:hover {
+  color: var(--primary-color);
+}
 brand {
   color: var(--text-color);
 }
@@ -196,6 +204,15 @@ footer .social-links a:hover {
 .project-overview-images {
   border: 10px solid var(--secondary-color);
   border-radius: 30px;
+}
+.project-overview-images a {
+  text-decoration: none;
+  color: var(--text-color);
+  font-weight: 700;
+}
+.project-overview-images a:hover {
+  text-decoration: none;
+  color: var(--primary-color);
 }
 .secondary-link {
   border-radius: 10px;
